@@ -1,0 +1,10 @@
+<div class="password">
+    <a style="color: whitesmoke;">Enter Password</a>
+    <input type="password" placeholder="Password" (keyup)="onKey($event)">
+    <div class="strength-container">
+        <br>
+        <p [style.color]="easyColor">Easy Password</p>
+        <p [style.color]="mediumColor">Medium Password</p>
+        <p [style.color]="strongColor">Strong Password</p>
+    </div>
+</div>
